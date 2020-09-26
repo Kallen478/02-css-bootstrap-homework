@@ -46,7 +46,26 @@
   </header>
   <br>
 
+  <!-- contact form -->
+  <main class="container text-info">
+    <h1>Send a Suggestion:</h1>
+    <hr>
+    <form action="action_page.php">
+      <!-- text fields -->
+      <label for="name">Name</label>
+      <input type="text" id="name" name="fullname" placeholder="First + Last">
 
+      <label for="email">Email</label>
+      <input type="text" id="email" name="emailaddress" placeholder="Your email address">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+      <!-- submit button -->
+      <input type="submit" value="Submit">
+
+    </form>
+
+  </main>
 
   <!-- footer -->
   <footer class="p-3 bg-dark text-info text-center fixed-bottom">
